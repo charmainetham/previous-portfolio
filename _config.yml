@@ -1,0 +1,29 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://charmainetham.github.io/
+baseurl: '/'
+title: Charmaine Tham
+author: Charmaine Tham
+description: Portfolio
+avatar: profile.png
+email: charmainetham@gmail.com
+github: charmainetham # username
+twitter: charmtham
+linkedin: username
+google_analytics: //
+
+
+
+# needed for travis-ci build
+exclude: [vendor]
